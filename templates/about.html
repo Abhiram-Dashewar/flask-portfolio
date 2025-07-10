@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} About {% endblock %}
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='about.css')}}">
+{% endblock %}
+{% block content %}
+   <h2>About me</h2>
+    <p class="paragraph"></p>
+    <br>
+    <p class="paragraph2">I'm a second-year student at <strong>Government Polytechnic College</strong>, pursuing a diploma in <strong>Electronics and communication Enginnering</strong>(EC).</p><br>
+    <p class="paragraph2">
+        I'm passionate about coding, especially in Python and web development using Flask. I enjoy building small projects that help me learn and grow.
+    </p>
+    <br>
+    <p class="paragraph2">
+        I'm currently working on project LEAD, where I focus on learning, executing real projects, adapting to new technologies, and delivering results that matter.
+    </p>
+    <br>
+    <p class="paragraph2">
+        When I'm not coding, you can find me listening to music or experimenting with new ideas to turn into apps. I'm excited about creating things that solve real problems.
+    </p>
+{% endblock %}

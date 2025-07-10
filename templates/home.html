@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+{% endblock %}
+{% block content %}
+    <h2> 👋 Hii there,</h2>
+    <p class="paragraph"> It's nice to meet you.</p><br>
+    <br>
+    <p class="paragraph2">I'm currently a student,  passionate about building web applications using Python and Flask.</p><br>
+    <p class="paragraph2">I'm developing my skills through <strong>Project LEAD</strong>, where I focus on continous learning, executing real-world projects, and adapting with tech growth.</p><br>
+    <p class="paragraph2">I enjoy programming, exploring new coding challenges, and listening to music in my free time.<br>
+    <br>
+    <p class="paragraph2">I'm constantly looking for opportunities to learn and grow by building real-world projects and collaborating with others.<br></p>
+{% endblock %}

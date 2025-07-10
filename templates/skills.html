@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %} Skills {% endblock %}
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='skills.css')}}">
+{% endblock %}
+{% block content %}
+   <h2>Skills</h2>
+    <h3>Programming Languages</h3>
+    <ul>
+        <li>Python</li>
+        <li>C Programming</li>
+        <li>HTML, CSS, JavaScript</li>
+    </ul>
+    <h3>Web Development</h3>
+    <ul>
+        <li>Flask web framework</li>
+        <li>Frontend with HTML/CSS</li>
+        <Li>Basic JavaScript for interactivity</Li>
+    </ul>
+    <h3>Tools and platforms</h3>
+    <ul>
+        <li>Git and Github</li>
+        <li>VS Code</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Problem-solving</li>
+        <li>self-learning through Project LEAD</li>
+    </ul>
+{% endblock %}
